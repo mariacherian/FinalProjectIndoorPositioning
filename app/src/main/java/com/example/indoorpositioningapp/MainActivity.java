@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
     int i,val1,val2,val;
     private RadioGroup radiogroup;
     private ImageView imageviewphoto;
-    //private String []stri={"library_sunya","sunya_library","hercules_bohr","hercules_skywalk","skywalk_ccf","skywalk_arc","ccf_skywalk","ccf_arc","arc_skywalk","arc_ccf"};
-    //private Integer []ph={R.drawable.library_sunya,R.drawable.sunya_library,R.drawable.hercules_bohr,R.drawable.hercules_skywalk,R.drawable.skywalk_ccf,R.drawable.skywalk_arc,R.drawable.ccf_skywalk,R.drawable.ccf_arc,R.drawable.arc_skywalk,R.drawable.arc_ccf};
     private Integer []photos= {R.drawable.mapg,R.drawable.mapf,R.drawable.maps,R.drawable.mapt};
     private String[] mac={"48:4a:e9:f2:5b:40","f0:5c:19:17:a8:42","48:4a:e9:f6:2d:00","48:4a:e9:f3:4e:a0","b4:75:08:19:c3:41","48:4a:e9:f0:a7:00","48:4a:e9:f6:43:40","48:4a:e9:f6:43:40"};
     private String[] location={"library","sunya", "hercules","bohr", "skywalk", "ccf", "arc", "boson"};

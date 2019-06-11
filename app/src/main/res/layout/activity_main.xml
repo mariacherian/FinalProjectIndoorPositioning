@@ -76,7 +76,7 @@
         <Spinner
             android:id="@+id/spinner1"
             android:layout_width="368dp"
-            android:layout_height="match_parent"
+            android:layout_height="43dp"
             android:layout_weight="1" />
 
         <Button
@@ -88,8 +88,8 @@
 
     <Spinner
         android:id="@+id/spinner2"
-        android:layout_width="290dp"
-        android:layout_height="67dp" />
+        android:layout_width="343dp"
+        android:layout_height="37dp" />
 
     <Button
         android:id="@+id/nav_button"
