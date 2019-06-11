@@ -21,11 +21,9 @@ public class Display extends AppCompatActivity {
             "arc_skywalk","arc_ccf","arc_bohr","arc_boson","arc_hercules","arc_library","arc_sunya",
             "sunya_library","sunya_skywalk","sunya_ccf","sunya_bohr","sunya_boson","sunya_hercules","sunya_arc",
             "hercules_bohr","hercules_skywalk","hercules_boson","hercules_arc","hercules_sunya","hercules_ccf","hercules_library",
-
-
-
-
-            "skywalk_ccf","skywalk_arc",};
+            "skywalk_ccf","skywalk_arc","skywalk_boson","skywalk_bohr","skywalk_library","skywalk_hercules","skywalk_sunya",
+            "bohr_ccf","bohr_arc","bohr_boson","bohr_skywalk","bohr_library","bohr_hercules","bohr_sunya"
+            };
 
     private Integer[][] ph={{R.drawable.boson_sunya0,R.drawable.boson_sunya1,R.drawable.boson_sunya2,R.drawable.boson_sunya3},
                             {R.drawable.boson_arc0,R.drawable.boson_arc1},
@@ -78,10 +76,22 @@ public class Display extends AppCompatActivity {
                             {R.drawable.hercules_library0,R.drawable.hercules_library1},
 
 
-
-
                             {R.drawable.skywalk_ccf},
                             {R.drawable.skywalk_arc},
+                            {R.drawable.skywalk_boson0,R.drawable.skywalk_boson1},
+                            {R.drawable.skywalk_bohr0,R.drawable.skywalk_bohr1},
+                            {R.drawable.skywalk_library0,R.drawable.skywalk_library1,R.drawable.skywalk_library2},
+                            {R.drawable.skywalk_hercules0,R.drawable.skywalk_hercules1},
+                            {R.drawable.skywalk_sunya0,R.drawable.skywalk_sunya1,R.drawable.skywalk_sunya2},
+
+
+                            {R.drawable.bohr_ccf0,R.drawable.bohr_ccf1},
+                            {R.drawable.bohr_arc0,R.drawable.bohr_arc1},
+                            {R.drawable.bohr_boson0,R.drawable.bohr_boson1,R.drawable.bohr_boson2},
+                            {R.drawable.bohr_skywalk0,R.drawable.bohr_skywalk1},
+                            {R.drawable.bohr_library0,R.drawable.bohr_library1},
+                            {R.drawable.bohr_hercules},
+                            {R.drawable.bohr_sunya0,R.drawable.bohr_sunya1}
 
     };
     final  private Integer[] subarray= new Integer[10];

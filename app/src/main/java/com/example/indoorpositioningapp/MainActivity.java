@@ -25,7 +25,7 @@ import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
-    int i,val1,val2,val;
+    int val;
     private RadioGroup radiogroup;
     private ImageView imageviewphoto;
     private Integer []photos= {R.drawable.mapg,R.drawable.mapf,R.drawable.maps,R.drawable.mapt};
